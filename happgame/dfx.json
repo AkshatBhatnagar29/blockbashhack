@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "happgame_backend": {
+      "main": "src/happgame_backend/main.mo",
+      "type": "motoko"
+    },
+    "happgame_frontend": {
+      "dependencies": [
+        "happgame_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/happgame_frontend/src/index.html"
+      },
+      "source": [
+        "src/happgame_frontend/assets",
+        "dist/happgame_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
