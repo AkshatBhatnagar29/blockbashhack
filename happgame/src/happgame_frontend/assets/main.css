@@ -117,12 +117,12 @@ button.calculate {
     var(--primary-color),
     var(--secondary-color)
   );
-  font-size: 18px;
-  border-radius: 8px;
+  font-size: 20px;
+  border-radius: 16px;
   padding: 15px 0;
   width: 90%;
-  outline: none;
-  border: none;
+  outline: black;
+  border: navy;
   transition: background-color 0.3s ease, transform 0.2s ease;
   margin-bottom: 20px;
 }
